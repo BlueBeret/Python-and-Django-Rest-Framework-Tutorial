@@ -1,0 +1,6 @@
+# ignore all venv
+
+venv/
+env/
+*.sqlite3
+__pycache__
