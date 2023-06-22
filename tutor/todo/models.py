@@ -1,11 +1,7 @@
 from django.db import models
 
-# Create your models here.
 class Todo(models.Model):
-    id = models.AutoField(primary_key=True)
-    title = models.CharField(max_length=100)
-    description = models.TextField(default="")
-    completed = models.BooleanField(default=False)
+    # create model that have title, description, completed, and id auto increment
 
     def __str__(self):
         return self.title

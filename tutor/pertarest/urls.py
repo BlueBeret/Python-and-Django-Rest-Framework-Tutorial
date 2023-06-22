@@ -16,12 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from todo.routers import router as todo_router
+#from todo.routers import router as todo_router
 from rest_framework.routers import SimpleRouter
 
 router = SimpleRouter()
 
-router.registry.extend(todo_router.registry)
+#router.registry.extend(todo_router.registry)
 
 
 
